@@ -4,12 +4,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 140px;
+	background-color: lightgrey;
 }
 
 h1 {
 	font-weight: lighter;
 	font-size: 40px;
 	letter-spacing: 2px;
+	color: white;
 }
 
 .inputSelection {
@@ -25,8 +27,31 @@ h1 {
 
 input {
 	margin-top: 10px;
+	box-sizing: border-box;
+	padding: 12px 20px;
 }
 
 .addButton {
 	margin-top: 10px;
+	padding: 10px 14px;
+	transition-duration: 0.4s;
+	background-color: white;
+	border: 1px solid darkslategray;
+	color: darkslategray;
+	font-size: 16px;
+	border-radius: 50%;
+}
+
+.addButton:hover {
+	background-color: darkslategray;
+	border: 1px solid white;
+	color: white;
+}
+
+button {
+	background-color: darkslategray;
+	padding: 15px 32px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: white;
 }
