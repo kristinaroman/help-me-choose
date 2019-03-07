@@ -32,8 +32,10 @@
                 console.log('hejsvejs')
                 $('body').addClass('yellowbackground')
             }
-            $('#headerOne').click(backGround)
-        
+
+            $('#headerOne').click(function() {
+                $('body').toggleClass('yellowbackground')
+            })
     </script>
 </body>
 </html>
