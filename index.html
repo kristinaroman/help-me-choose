@@ -7,13 +7,33 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     </head>
 <body>
-    <h1>Help me choose between..</h1>
+    <h1 id="headerOne">Help me choose between..</h1>
     <div class="inputSelection">
         <div class="inputs">
             <input placeholder="Something"></input>
         </div>
         <button class="addButton">Add</button>
     </div>
+    <div class="resultSection"></div>
     <button>Go!</button>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function() {
+            $('.resultSection').hide()
+
+            var add_option = function() {
+                console.log('hej')
+                $('.inputs').append('<input></input>')
+            }
+            $('.addButton').click(add_option)
+        })
+        
+            var backGround = function() {
+                console.log('hejsvejs')
+                $('body').addClass('yellowbackground')
+            }
+            $('#headerOne').click(backGround)
+        
+    </script>
 </body>
 </html>
