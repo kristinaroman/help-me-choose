@@ -59,3 +59,13 @@ button {
 	font-size: 14px;
 	color: white;
 }
+
+.resultSection
+{
+	margin: 40px 0px 40px 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: green;
+}
